@@ -2,8 +2,9 @@
   "name": "example-serverless-express",
   "version": "1.0.0",
   "description": "Serverless webpack example using Typescript",
-  "main": "handler.js",
+  "main": "index.js",
   "scripts": {
+    "start": "ts-node index",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
