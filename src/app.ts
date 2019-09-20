@@ -1,6 +1,6 @@
 import * as express from 'express';
 
-const app = express();
+export const app = express();
 const router = express.Router();
 
 router.get('/', (_req, res) => {
@@ -12,5 +12,3 @@ router.get('/bye', (_req, res) => {
 });
 
 app.use('/', router);
-
-export default app;

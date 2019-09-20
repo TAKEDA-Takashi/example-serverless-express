@@ -1,7 +1,7 @@
 import * as awsServerlessExpress from 'aws-serverless-express';
 import 'source-map-support/register';
 
-import app from './src/app';
+import { app } from './src/app';
 
 const proxy = awsServerlessExpress.createServer(app);
 
