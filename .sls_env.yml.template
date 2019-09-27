@@ -1,0 +1,2 @@
+lambdaLayers:
+  bucketName: # precreated your S3 bucket name
