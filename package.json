@@ -17,12 +17,13 @@
     "@types/aws-serverless-express": "^3.3.1",
     "@types/express": "^4.17.1",
     "@types/node": "^12.7.5",
-    "serverless": "^1.52.0",
+    "serverless": "^1.53.0",
     "serverless-webpack": "^5.3.1",
     "ts-loader": "^6.1.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.3",
-    "webpack": "^4.40.2"
+    "webpack": "^4.40.2",
+    "webpack-node-externals": "^1.7.2"
   },
   "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
   "license": "MIT"
